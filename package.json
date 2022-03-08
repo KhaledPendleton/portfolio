@@ -1,0 +1,15 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "Khaled Pendleton's personal home page",
+	"main": ".eleventy.js",
+	"scripts": {
+		"start": "npx eleventy --serve"
+	},
+	"keywords": [],
+	"author": "Khaled Pendleton",
+	"license": "ISC",
+	"dependencies": {
+		"@11ty/eleventy": "^1.0.0"
+	}
+}
