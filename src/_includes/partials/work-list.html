@@ -1,0 +1,17 @@
+<div id="work-list">
+    {% if workListHeadline %}
+    <h2>{{ workListHeadline }}</h2>
+    {% endif %}
+
+    <div>
+        <ul>
+            {% for item in workListItems %}
+            <li>
+                <a href="{{ item.url }}" aria-label="See {{ item.data.title }}">
+                    {{ item.data.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
